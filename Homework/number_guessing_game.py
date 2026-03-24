@@ -49,12 +49,5 @@ def play_game():
             print("Correct! You guessed the number.")
             break
         
-        # In case they are tired of losing.
-        stop = input("Do you want to keep playing? (yes/no): ").lower()
-        
-        if stop == "no":
-            print("Game stopped.")
-            break
-
 # Start the game.
 play_game()
